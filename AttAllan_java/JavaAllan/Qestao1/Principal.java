@@ -1,0 +1,12 @@
+
+public class Principal {
+    public static void main(String[] args) {
+        Animal animal = new Animal();
+        Cachorro cachorro = new Cachorro();
+        Gato gato = new Gato();
+        
+        animal.fazerbarulho(); 
+        cachorro.fazerbarulho(); 
+        gato.fazerbarulho(); 
+    }
+}
